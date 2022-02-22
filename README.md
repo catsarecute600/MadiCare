@@ -34,7 +34,7 @@ mosquitto_sub -t "madicare" -u maddie -P my_password
 ## publish message
 mosquitto_pub -t madicare -m '{"name" : "maddie", "email":"maddie@test.com" }' -u maddie -P my_password
   
-# Example Flask MQTT 
+## Example Flask MQTT integration
 https://ithelp.ithome.com.tw/articles/10198250
 
 # Run Server
